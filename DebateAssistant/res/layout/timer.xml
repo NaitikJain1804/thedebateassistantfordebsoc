@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+      android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/homescreen" >
+
+<RelativeLayout 
+    android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/homescreen">
+
+    <Button
+        android:id="@+id/pause"
+        style="@style/DashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/pause"
+        android:drawableStart="@drawable/pause" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pause"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="138dp"
+        android:adjustViewBounds="true"
+        android:textColor="#FFFF"
+        android:textSize="120dp" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/DashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/timer"
+        android:drawableLeft="@drawable/next"
+        android:drawableStart="@drawable/next" />
+
+</RelativeLayout>
+
+ 
+
+</LinearLayout>

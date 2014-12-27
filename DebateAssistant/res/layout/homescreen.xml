@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+      android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/homescreen" >
+
+    
+    
+
+       <ImageView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/title"/>
+
+       <Button
+           android:id="@+id/format"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/title"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="87dp"
+           android:drawableLeft="@drawable/format"
+           android:drawableStart="@drawable/format" />
+
+       </RelativeLayout>
+       
+     
+       

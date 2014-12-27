@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/homescreen"
+    android:orientation="vertical" >
+
+<LinearLayout 
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/homescreen" >
+	
+    <TextView
+           android:id="@+id/selecttheme"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/themeselect"
+           android:drawableStart="@drawable/themeselect" />
+    
+    <Button
+           android:id="@+id/polandir"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/polir"
+           android:drawableStart="@drawable/polir" />
+    
+    <Button
+           android:id="@+id/education"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/education"
+           android:drawableStart="@drawable/education" />
+    
+    <Button
+           android:id="@+id/environment"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/environment"
+           android:drawableStart="@drawable/environment" />
+    
+    <Button
+           android:id="@+id/freespeech"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/freespeech"
+           android:drawableStart="@drawable/freespeech" />
+    
+    <Button
+           android:id="@+id/health"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/health"
+           android:drawableStart="@drawable/health" />
+    
+    <Button
+           android:id="@+id/law"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/law"
+           android:drawableStart="@drawable/law" />
+    
+    <Button
+           android:id="@+id/religion"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/religion"
+           android:drawableStart="@drawable/religion" />
+    
+    <Button
+           android:id="@+id/society"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/society"
+           android:drawableStart="@drawable/society" />
+    
+    <Button
+           android:id="@+id/mixed"
+           style="@style/DashboardButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20sp"
+           android:drawableLeft="@drawable/mixed"
+           android:drawableStart="@drawable/mixed" />
+
+</LinearLayout>
+</ScrollView>
